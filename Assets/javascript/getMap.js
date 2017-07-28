@@ -18,10 +18,8 @@ function getLocation() {
 
 function showPosition(position) {
     //    debugger;
-    lat = position.coords.latitude;
-    lon = position.coords.longitude;
-    //    lat = 28.729673199999993;
-    //    lon = 77.0959893;    
+    lat = 28.714786499999995;
+    lon = 77.0847843;
     latlon = new google.maps.LatLng(lat, lon);
     mapholder = document.getElementById('mapholder');
     mapholder.style.height = '320px';
