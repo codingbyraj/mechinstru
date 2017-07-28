@@ -1,0 +1,443 @@
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-size: 100% 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#pre-header {
+    /*background: rgba(62, 62, 62, 0.8);*/
+    background-color: #211f1f;
+    /*        #4d6066    #3A5683;*/
+    padding: 5px;
+}
+
+    #pre-header #mobile_num h5 {
+        padding-top: 5px;
+        margin: 0px;
+        color: white;
+        font-size: 16px;
+    }
+
+    #pre-header .icons {
+        display: inline;
+        margin-right: 4%;
+    }
+
+        #pre-header .icons .callus,
+        #pre-header .icons .mailus,
+        #pre-header .icons .enquiry {
+            display: inline-block;
+            border: 3px solid white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            /*    padding: 2px 0px 0px 2px;*/
+            padding: 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+            #pre-header .icons .mailus .fa {
+            }
+
+        #pre-header .icons .fa {
+            color: white;
+        }
+
+        #pre-header .icons .icon1 {
+            /*    border: 1px solid black;*/
+            display: inline;
+        }
+
+    #pre-header .search {
+        position: relative;
+        display: inline;
+        margin-right: 5%;
+    }
+
+        #pre-header .search .searchicon {
+            position: absolute;
+            font-size: 18px;
+            right: 4%;
+            top: 1%;
+        }
+
+    #pre-header .followus {
+        display: inline;
+    }
+
+        #pre-header .followus .socialicon {
+            text-align: center;
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            color: white;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+            #pre-header .followus .socialicon .fa {
+                font-size: 18px;
+                padding: 5px;
+            }
+
+        #pre-header .followus .googleplus {
+            background-color: #d34836;
+        }
+
+        #pre-header .followus .facebook {
+            background-color: #3b5998;
+        }
+
+        #pre-header .followus .linkedin {
+            background-color: #007bb6;
+        }
+
+        #pre-header .followus .googleplus:hover {
+            border-radius: 50%;
+            transition: 0.1s;
+        }
+
+        #pre-header .followus .facebook:hover {
+            border-radius: 50%;
+            transition: 0.1s;
+        }
+
+        #pre-header .followus .linkedin:hover {
+            border-radius: 50%;
+            transition: 0.1s;
+        }
+
+header {
+    /*background: rgba(0, 0, 224, 0.9);*/
+    /*background-color: #00aa00;*/
+    background-color: #008000;
+}
+
+    header .container {
+    }
+
+    header #logo {
+        display: inline;
+    }
+
+    header h2 {
+        display: inline;
+        font-size: 26px;
+        font-family: 'Spectral', serif;
+        color: white;
+    }
+
+    header #logo img {
+        /*        padding: 4px 0px 0px 4px;*/
+        height: 80px;
+        width: 80px;
+    }
+
+    header #navigation_bar ul {
+        list-style: none;
+        margin: 0px;
+        padding-left: 2%;
+    }
+
+        header #navigation_bar ul li {
+            margin: 4% 5%;
+            font-size: 18px;
+            padding: 4px;
+            display: inline-block;
+        }
+
+            header #navigation_bar ul li:last-child {
+                margin-right: 0%;
+            }
+
+            header #navigation_bar ul li a {
+                text-decoration: none;
+                color: white;
+                display: block;
+            }
+
+            header #navigation_bar ul li:hover {
+                /*        background-color: white;*/
+                /*        border-radius: 3px;*/
+                border-bottom: 2px solid black;
+            }
+
+                header #navigation_bar ul li:hover a {
+                    color: white;
+                }
+
+#content {
+    background-color: #F3EFF5;
+}
+
+    #content .container {
+        padding: 10px 0px;
+        /*        background-color: #AAACB1;*/
+    }
+
+    #content #image_slider {
+        width: 100%;
+        margin: 0px auto 50px;
+    }
+
+        #content #image_slider img {
+            max-height: 500px;
+            min-height: 500px;
+        }
+
+    #content #about_company {
+        width: 70%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+        padding: 20px;
+    }
+
+        #content #about_company p {
+            text-align: center;
+            font-family: arial, times new roman;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: normal;
+        }
+
+    #content #services img {
+        width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+    #content #services h4 {
+        background-color: #AAACB1;
+        padding: 5px;
+    }
+
+    #content #services p {
+        font-weight: normal;
+        font-size: 12px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: justify;
+    }
+
+        #content #services p.view_more {
+            text-align: right;
+        }
+
+footer {
+    background-color: #343330;
+    padding: 20px 0px;
+}
+
+    footer h5 {
+        font-family: arial;
+        font-size: 15px;
+        padding-bottom: 10px;
+        color: gray;
+    }
+
+    footer a {
+        color: #66D7D1;
+        text-decoration: none;
+    }
+
+        footer a:hover {
+            color: #66D7D1;
+            text-decoration: none;
+            text-shadow: 1px 1px 2px #66D7D1;
+        }
+
+    footer #contact_details p {
+        color: #F2EFEA;
+    }
+
+    footer .container {
+        /*        width: 100%;*/
+    }
+
+    footer #follow_us p {
+        width: 30%;
+        padding-top: 20px;
+        color: gray;
+    }
+
+    footer #follow_us img {
+        height: 60px;
+        width: 60px;
+    }
+
+        footer #follow_us img:hover {
+            cursor: pointer;
+        }
+
+    footer #quick_links p,
+    footer #site_nav p {
+        border-bottom: 1px solid grey;
+        padding-bottom: 2px;
+        color: #66D7D1;
+    }
+
+#copyright_stat {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    color: #666666;
+}
+
+    #copyright_stat #designer_name {
+        color: white;
+    }
+/* contact us page*/
+
+h1 {
+    text-align: center;
+}
+
+#metro_map img {
+    text-align: center;
+    border: 1px solid green;
+    width: 80%;
+}
+
+#errorMsg {
+    /*        font-weight: bold;*/
+    text-align: center;
+}
+
+#mapholder {
+    border: 1px solid;
+    width: 550px;
+    height: 320px;
+}
+
+#contact_details .contacts {
+    margin-bottom: 25px;
+}
+
+#contact_details #contact_address {
+    width: 40%;
+    /*        border: 1px solid;*/
+}
+
+#contact_details #map {
+    width: 60%;
+}
+
+    #contact_details #map img {
+        width: 100%;
+    }
+
+#contact_details h3 {
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+}
+
+#contact_details h4 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+#contact_details p {
+    font-size: 14px;
+}
+/*    about us page   */
+
+#aboutus_content {
+    background-color: #F3EFF5;
+}
+
+    #aboutus_content h1 {
+        background-color: #9FA59E;
+        color: white;
+    }
+
+    #aboutus_content p {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    #aboutus_content .aboutus_info h2 {
+        background-color: #9FA59E;
+        color: white;
+        text-align: left;
+    }
+
+    #aboutus_content .aboutus_info:last-child {
+        margin-bottom: 50px;
+    }
+/* service page */
+
+
+#service_head {
+    width: 70%;
+    margin: auto;
+}
+
+    #service_head h2 {
+        font-size: 26px;
+    }
+
+
+#query_form {
+    width: 70%;
+    margin: auto;
+    border: 1px solid grey;
+    padding: 40px;
+    box-shadow: 0 0 100px #008000 inset;
+}
+
+.form_row {
+    margin-bottom: 15px;
+}
+
+.div_label {
+    width: 35%;
+    /*border:1px solid red;*/
+}
+
+.div_txtbox {
+    width: 50%;
+}
+
+.my_label {
+    font-family: 'Times New Roman';
+    font-size: 22px;
+    width: 100px;
+}
+
+
+.txtbox {
+    width: 70%;
+}
+
+.dropdown {
+    width: 70%;
+    height: 26px;
+}
+
+.txt_area {
+    width: 100%;
+    height: 200px;
+}
+
+#btn_send {
+    width: 100px;
+    height: 34px;
+}
